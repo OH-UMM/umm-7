@@ -29,14 +29,14 @@ body{
 }
 
 a {                  /* A stands for link, so this section is setting the default characteristics of links. */
-	color: #C41E3A;
+	color: green;
 	text-decoration: none;
 }
 
 h1 {		     /* This styles the header at the top of the page */
 	font: bold 2.1em 'Source Sans Pro',Arial, Sans-Serif;
 	text-align: left;
-	color: white;
+	color: yellow;
 }
 
 h2 {		     /* This styles the headers within the page */
@@ -56,8 +56,8 @@ div.section {
 
 /* If we want the divs with ids plan and more to look the same, we can put them together */
 #plan, #more {
-	background:#000080;
-	color: white;
+	background: maroon;
+	color: yellow;
 	font: 'Source Sans Pro',Arial, Sans-Serif;
 	background-image: none;  /* replace none with url('image-url') to set a background image  */
 }
